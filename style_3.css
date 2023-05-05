@@ -1,0 +1,187 @@
+main {
+    min-height: 100vh
+}
+header {
+    height: 75px;
+    background: url("img/шапка6.jpg");
+    background-size: cover;
+}
+header h1 {
+    font-size: 52px;
+    margin: 0;
+    color: #ddcaa0;
+    font-family: Times, serif;
+}
+header h1:hover {
+    cursor: default;
+}
+header a {
+    margin-left: 40px;
+    font-size: 25px;
+    color: #ddcaa0;
+    font-family: Times, serif;
+    line-height: 27px;
+}
+header a:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+header .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+main .title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #ddcaa0;
+    text-align: center;
+    font-family: Times, serif;
+}
+.календарь img {
+    height: 700px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1000px) {
+    .календарь img {
+        height: 500px;
+    }
+}
+main {
+    background: url('img/black.jpg');
+    background-size: cover;
+}
+@media screen and (max-width: 765px) {
+    .календарь img {
+        height: 300px;
+    }
+    header h1 {
+        display: none;
+    }
+    header {
+        height: 30px;
+    }
+    .menu {
+    margin-left: 40px;
+    font-size: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .календарь img {
+        height: 200px;
+    }
+    header h1 {
+        display: none;
+    }
+    header {
+        height: 25px;
+    }
+    .menu {
+        margin-left: 20px;
+        font-size: 11px;
+    }
+}
+table {
+    margin-top: 30px;
+}
+.table th {
+    color: #AA82FF  ;
+}
+.table td,
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+table .td_even,
+table .военка {
+    background-color: #202020 ;
+}
+.table td {
+    height: 100px;
+    color: #00E30A  ;
+}
+table .time {
+    color: #0ef;
+}
+.auditorium {
+    color: #0ef;
+}
+.auditorium2 {
+    color: #f5af00;
+}
+th:nth-child(even) {
+    color: #B22AF7  ;
+}
+table caption {
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 30px;
+}
+td:hover {
+    background-color: #3d3d3d;
+}
+.ОТВЗИСС:hover {
+    background: url('img/Шубин.jpg');
+    background-size: cover;
+    color: black;
+}
+.ИГ:hover,
+ #ИГ:hover {
+    background: url('img/Ланге.jpg');
+    background-size: cover;
+    color: black;
+}
+#empty_td:hover {
+    background: url('img/Перегудин.jpg');
+    background-size: cover;
+    color: black;
+}
+#window:hover {
+    background: url('img/Перегудин3.jpg');
+    background-size: cover;
+    color: black;
+}
+#second_pair:hover {
+    background: url('img/Перегудин1.jpg');
+    background-size: cover;
+    color: black;
+}
+@media screen and (max-width: 1000px) {
+    .ОТВЗИСС:hover {
+        background: url('img/Шубин2.jpg');
+        background-size: cover;
+        color: black;
+    }
+    #ИГ:hover {
+        background: url('img/Ланге3.jpg');
+        background-size: cover;
+        color: black;
+}
+    #second_pair:hover {
+        background: url('img/Перегудин4.jpg');
+        background-size: cover;
+        color: black;
+}
+}
+.footer {
+    background: url("img/чернота.jpg");
+    background-size: cover;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.footer .container p {
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 20px;
+}
+.footer .container a {
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 30px;
+}

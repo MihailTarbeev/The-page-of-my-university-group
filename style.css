@@ -1,0 +1,464 @@
+main {
+    min-height: 100vh
+    }
+header {
+    height: 75px;
+    background: url("img/шапка6.jpg");
+    background-size: cover;
+}
+header h1 {
+    font-size: 52px;
+    margin: 0;
+    color: #ddcaa0;
+    font-family: Times, serif;
+}
+header h1:hover {
+    cursor: default;
+}
+header a {
+    margin-left: 40px;
+    font-size: 25px;
+    color: #ddcaa0;
+    font-family: Times, serif;
+    line-height: 27px;
+}
+header a:hover {
+    color: red;
+}
+a {
+    text-decoration: none;
+}
+header .container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.matrix {
+    height: 700px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url("img/морфеус.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.the_first_group, .the_second_group {
+    height: 100px;
+    width: 300px;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-bottom: 120px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Times, serif;
+    font-size: 30px;
+}
+.the_first_group {
+    background: url("img/красный.jpg");
+    background-size: cover;
+}
+.the_first_group a {
+    color: black;
+}
+.the_first_group a:hover {
+        font-size: 34px;
+        transition: 0.4s;
+}
+.the_second_group {
+    background: url("img/фон2.jpg");
+    background-size: cover;
+}
+.the_second_group a {
+    color: black;
+}
+.the_second_group a:hover {
+        font-size: 34px;
+        transition: 0.4s;
+}
+.matrix p {
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+#red {
+    background: #f75964;
+}
+#blue {
+    background: #479dff;
+}
+.choice {
+    background: url("img/матрица2.png");
+    background-size: cover;
+}
+.list {
+    background: url("img/27230 (1).jpg");
+    background-size: cover;
+}
+.list .container {
+    display: flex;
+    justify-content: center;
+}
+.list .container h1 {
+    margin-top: 40px;
+    font-family: Times, serif;
+    font-size: 60px;
+    color: #ddcaa0;
+}
+.classmates {
+    display: flex;
+    flex-wrap: wrap;
+}
+.classmates .member {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 30px;
+}
+.classmates .member .image {
+     border-radius: 50%;
+     width: 265px;
+     height: 265px;
+     margin-left: auto;
+     margin-right: auto;
+}
+.classmates .member .image:hover {
+    background-size: cover;
+}
+#Андреев {
+    background: url('img/Коля.jpg');
+    background-size: cover;
+}
+#Андреев:hover {
+    background: url('img/hover/Коля.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Белкин {
+    background: url('img/Белкин.jpg');
+    background-size: cover;
+}
+#Белкин:hover {
+    background: url('img/hover/Вербило.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Гладышев {
+    background: url('img/Серёга.jpg');
+    background-size: cover;
+}
+#Гладышев:hover {
+    background: url('img/hover/Серёга.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Колосов {
+    background: url('img/Олег.jpg');
+    background-size: cover;
+}
+#Колосов:hover {
+    background: url('img/hover/Олег.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Левченко {
+    background: url('img/Левченко.jpg');
+    background-size: cover;
+}
+#Левченко:hover {
+    background: url('img/hover/Левченко.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Мартакуш {
+    background: url('img/Умаима.jpg');
+    background-size: cover;
+}
+#Мартакуш:hover {
+    background: url('img/hover/Умаима.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Пахомова {
+    background: url('img/Олеся.jpg');
+    background-size: cover;
+}
+#Пахомова:hover {
+    background: url('img/hover/Олеся.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Пацей {
+    background: url('img/Настя.jpg');
+    background-size: cover;
+}
+#Пацей:hover {
+    background: url('img/hover/Настя.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Плехов {
+    background: url('img/Кирилл.jpg');
+    background-size: cover;
+}
+#Плехов:hover {
+    background: url('img/hover/Кирилл.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Пягай {
+    background: url('img/Паша.jpg');
+    background-size: cover;
+}
+#Пягай:hover {
+    background: url('img/hover/Паша.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Ржепецкий {
+    background: url('img/Ржепецкий.jpg');
+    background-size: cover;
+}
+#Ржепецкий:hover {
+    background: url('img/hover/Ржепецкий.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Сарнацкая {
+    background: url('img/Полина.jpg');
+    background-size: cover;
+}
+#Сарнацкая:hover {
+    background: url('img/hover/Полина.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Семкина {
+    background: url('img/Геля.jpg');
+    background-size: cover;
+}
+#Семкина:hover {
+    background: url('img/hover/Геля.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Серб {
+    background: url('img/Матвей.jpg');
+    background-size: cover;
+}
+#Серб:hover {
+    background: url('img/hover/Матвей.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Сколота {
+    background: url('img/Никита.jpg');
+    background-size: cover;
+}
+#Сколота:hover {
+    background: url('img/hover/Никита.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Смирнова {
+    background: url('img/Влада.jpg');
+    background-size: cover;
+}
+#Смирнова:hover {
+    background: url('img/hover/Влада.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Супруненко {
+    background: url('img/Ваня.jpg');
+    background-size: cover;
+}
+#Супруненко:hover {
+    background: url('img/hover/Ваня.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Сысоев {
+    background: url('img/Сысоев.jpg');
+    background-size: cover;
+}
+#Сысоев:hover {
+    background: url('img/hover/Сысоев.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Тарбеев {
+    background: url('img/Миша.jpg');
+    background-size: cover;
+}
+#Тарбеев:hover {
+    background: url('img/hover/Миша.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Худякова {
+    background: url('img/Лада.jpg');
+    background-size: cover;
+}
+#Худякова:hover {
+    background: url('img/hover/Лада.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Шендриков {
+    background: url('img/Влад.jpg');
+    background-size: cover;
+}
+.member #Влад {
+    background: transparent;
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 30px;
+    border: none;
+}
+.member #Влад:hover {
+       #Шендриков {
+        background: url('img/Матвей.jpg');
+       }
+}
+#Шендриков:hover {
+    background: url('img/hover/Влад.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+#Шехадех {
+    background: url('img/Яхья.jpg');
+    background-size: cover;
+}
+#Шехадех:hover {
+    background: url('img/hover/Яхья.jpg');
+    transition: 0.3s;
+    background-size: cover;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+.popup_body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+}
+.popup_content {
+    text-align: center;
+    position: relative;
+    padding: 50px;
+}
+.popup_title {
+    font-size: 50px;
+    color: #ddcaa0;
+    font-family: Times, serif;
+}
+.popup_text {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    color: #ddcaa0;
+}
+.popup_close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: right;
+}
+.popup_close a {
+    font-size: 40px;
+    color: red;
+}
+.popup_close a + p {
+    display: none;
+}
+.popup_close a:hover + p {
+    display: block;
+    color: #ddcaa0;
+    font-family: Times, serif;
+}
+#popup1 .popup_body {
+    background: url('img/ВМФ.jpg');
+    background-size: cover;
+}
+#popup1 .popup_title,
+#popup1 .popup_text,
+#popup1 p {
+    color: black;
+}
+.footer {
+    background: url("img/чернота.jpg");
+    background-size: cover;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.footer .container p {
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 20px;
+}
+.footer .container a {
+    color: #ddcaa0;
+    font-family: Times, serif;
+    font-size: 30px;
+}
+@media screen and (max-width: 765px) {
+    header h1 {
+        display: none;
+    }
+    header {
+        height: 30px;
+    }
+    .menu {
+    margin-left: 40px;
+    font-size: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header h1 {
+        display: none;
+    }
+    header {
+        height: 25px;
+    }
+    .menu {
+        margin-left: 20px;
+        font-size: 11px;
+    }
+}
